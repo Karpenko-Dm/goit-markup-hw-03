@@ -8,20 +8,21 @@ img {
 }
 
 body {
-  /*background-color: #ffffff; */
   font-family: Roboto, sans-serif;
 }
-.header {
+.header-container {
   display: flex;
   align-items: center;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header {
+  background-color: rgb(167, 153, 167);
 }
 
 .site-nav {
   display: flex;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  background-color: #ffffff;
 }
 
 .logo {
@@ -40,14 +41,15 @@ body {
   color: var(--accent-color);
 }
 .footer-logo {
-  display: inline-block;
-  margin-left: 215px;
-  margin-top: 60px;
   text-decoration: none;
   color: #ffffff;
   font-size: 26px;
   height: 1.19;
   font-family: Raleway, sans-serif;
+
+  display: inline-block;
+  padding-left: 215px;
+  padding-top: 60px;
 }
 .footer-logo span {
   color: var(--accent-color);
@@ -78,9 +80,15 @@ li {
 }
 .nav-contacs {
   display: flex;
-  padding: 0px;
   margin-top: 32px;
-  margin-right: 215px;
+  margin-bottom: 32px;
+
+  min-width: 350px;
+  padding-left: 0px;
+}
+
+.container-nav {
+  padding-top: 0px;
 }
 
 .nav-contacs :not(:first-child) {
@@ -111,8 +119,7 @@ li {
   display: inline-block;
   min-width: 200px;
   padding: 10px 32px;
-  margin-top: center;
-  margin-left: center;
+  margin-top: 30px;
   text-decoration: none;
   border-radius: 4px;
   background-color: var(--accent-color);
@@ -125,14 +132,16 @@ h3,
 p {
   color: var(--primary-text-color);
 }
-/* ouer team  */
+/* =======================ouer team===============  */
 
 .team-title {
-  margin-left: 668px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
+
+  margin: 0px;
+  padding-top: 94px;
 }
 .team-list p {
   color: var(--title-text-color);
@@ -148,21 +157,27 @@ p {
 }
 .team-section {
   margin-top: 94px;
+  text-align: center;
+  background-color: #f5f4fa;
 }
 .team-list {
   display: flex;
-  margin-top: 50px;
+  margin-bottom: 0px;
   margin-left: 215px;
   margin-right: 215px;
+  padding-bottom: 94px;
+  padding-left: 0px;
+  padding-top: 50px;
 }
 
-/* footer  */
+/* =======================footer=====================  */
 .footer-address {
-  margin-top: 20px;
-  margin-left: 215px;
+  padding-top: 20px;
+  padding-left: 215px;
+  padding-bottom: 60px;
 }
 .footer-section {
-  margin-top: 94px;
+  margin-top: 0px;
 }
 footer {
   background-color: #2f303a;
@@ -175,7 +190,7 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.address-contant a {
+.address-contact a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
@@ -183,13 +198,12 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.address-contant {
+.address-contact {
   margin-top: 9px;
 }
-/* hero */
+/* =================hero============ */
 .hero {
-  display: flex;
-
+  text-align: center;
   min-height: 600px;
   background-color: #2f303a;
   margin-top: 0px;
@@ -198,8 +212,9 @@ footer {
   margin-top: 0px;
 }
 .title-hero {
-  margin-left: auto;
-  margin-top: auto;
+  padding-top: 200px;
+  margin-bottom: 0;
+  margin-top: 0;
 
   color: #ffffff;
   font-weight: 900;
@@ -211,7 +226,7 @@ footer {
 
 .title-work {
   margin-top: 0px;
-  margin-left: 612px;
+  text-align: center;
 
   font-weight: bold;
   font-size: 36px;
@@ -224,6 +239,7 @@ footer {
 .work-list {
   display: flex;
   margin: 50px 215px;
+  padding-left: 0px;
 }
 
 .features h3 {
@@ -233,6 +249,9 @@ footer {
   letter-spacing: 0.03em;
   font-family: Roboto;
   text-transform: uppercase;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .features p {
   color: var(--title-text-color);
@@ -240,20 +259,21 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  margin-top: 10px;
 }
 ul .features {
-  margin-top: 0px;
+  margin-top: 0;
 }
 .features-container {
   margin-top: 94px;
   margin-left: 215px;
-  min-width: 101px;
 }
-.features {
-  display: flex;
-}
+/*.features {
+ display: flex; 
+}*/
 
-/*Портфолио*/
+/*=======================Портфолио====================*/
 .our-work {
   font-size: 36px;
   line-height: 1.16;
@@ -296,4 +316,18 @@ button:hover,
 button a:focus {
   background-color: #2196f3;
   color: #ffffff;
+  cursor: pointer;
+}
+
+.menu ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.menu-container {
+  padding-top: 94px;
+  background-color: green;
+}
+.portfolio-container {
+  padding-top: 34px;
+  background-color: tomato;
 }
