@@ -320,7 +320,7 @@ ul .features {
   padding-right: 215px;
 }
 .features-container {
-  width: 1200px;
+  min-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 }
