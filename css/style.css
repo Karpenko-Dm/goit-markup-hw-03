@@ -80,14 +80,13 @@ li {
   margin-top: 0px;
   margin-bottom: 0px;
   min-width: 350px;
-  padding-left: 0px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .container-nav {
   padding-top: 0px;
-  margin-left: 331px;
+  padding-left: 331px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .nav-contacs :not(:first-child) {
@@ -134,30 +133,37 @@ p {
   line-height: 1.18;
   letter-spacing: 0.03em;
 
-  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 .team-list h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
 
-  margin-top: 30px;
+  padding-top: 30px;
   margin-bottom: 0px;
 }
 .team-list li:not(:last-child) {
   margin-right: 30px;
 }
 .team-section {
-  margin-top: 94px;
   text-align: center;
   background-color: #f5f4fa;
 }
+.team-container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .team-list {
   display: flex;
+  align-items: center;
   margin-bottom: 0px;
-  margin-left: 215px;
-  margin-right: 215px;
-  padding-bottom: 94px;
+
   padding-left: 0px;
   padding-top: 50px;
 }
@@ -244,7 +250,7 @@ footer {
 }
 
 .title-work {
-  margin-top: 0px;
+  margin: 0px;
   text-align: center;
 
   font-weight: bold;
@@ -253,15 +259,26 @@ footer {
   letter-spacing: 0.03em;
 }
 .work-section {
-  margin-top: 94px;
+  align-items: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: 0px;
+}
+.work-container {
+  min-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .work-list {
   display: flex;
-  margin: 50px 215px;
-  padding-left: 0px;
+  justify-content: center;
+  margin-top: 0px;
+  padding-top: 50px;
 }
 .work-list li:not(:last-child) {
-  margin-right: 30px;
+  padding-right: 30px;
 }
 /*=============features================*/
 .features {
@@ -289,7 +306,7 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  margin-top: 10px;
+  padding-top: 10px;
   margin-bottom: 0px;
   margin-right: 0px;
 }
@@ -297,10 +314,16 @@ ul .features {
   margin-top: 0;
 }
 .features-section {
-  margin-top: 94px;
-  margin-left: 215px;
-  margin-right: 215px;
+  padding-top: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
 }
+.features-container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .features ul:not(:first-child) {
   margin-right: 30px;
 }
