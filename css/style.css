@@ -14,16 +14,19 @@ body {
 .header-container {
   display: flex;
   align-items: center;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
 }
 .header {
+  display: flex;
+  align-items: center;
   border: 1px solid #ececec;
 }
 
 .site-nav {
   display: flex;
-  justify-content: flex-start;
 }
 
 .logo {
@@ -35,7 +38,6 @@ body {
   font-size: 26px;
   line-height: 1.19;
   padding-top: 24px;
-  padding-left: 215px;
 }
 
 .logo span {
@@ -99,6 +101,7 @@ li {
   display: flex;
   margin: 0px;
   padding-top: 32px;
+  padding-bottom: 32px;
   padding-left: 93px;
 }
 
@@ -180,12 +183,12 @@ p {
   padding-top: 20px;
 }
 .footer-section {
+  background-color: #2f303a;
   display: flex;
   align-items: center;
-  margin-top: 0px;
+  padding: 60px 0;
 }
 footer {
-  background-color: #2f303a;
   min-height: 252px;
 }
 .address {
@@ -207,9 +210,9 @@ footer {
   padding-top: 9px;
 }
 .footer-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-left: 215px;
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 /* =================hero============ */
 .hero a {
