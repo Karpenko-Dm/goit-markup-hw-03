@@ -9,9 +9,11 @@ img {
 
 body {
   font-family: Roboto, sans-serif;
+  /* <!============ Header =============*/
 }
 .header-container {
   display: flex;
+  align-items: center;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -150,12 +152,12 @@ p {
 .team-section {
   text-align: center;
   background-color: #f5f4fa;
-}
-.team-container {
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 94px;
+}
+.team-container {
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -178,6 +180,8 @@ p {
   padding-top: 20px;
 }
 .footer-section {
+  display: flex;
+  align-items: center;
   margin-top: 0px;
 }
 footer {
@@ -338,6 +342,8 @@ ul .features {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 94px;
+  padding-top: 94px;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -430,8 +436,6 @@ button a:focus {
 }
 .menu-container {
   width: 1200px;
-  padding-bottom: 34px;
-  padding-top: 94px;
 }
 
 .list-menu {
